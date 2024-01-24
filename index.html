@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+    <h1>Galeria de Fotos</h1>
+    <button id="btnNovaImg" type="button">Nova Imagem+</button>
+  </header>
+  <form id="frmImagens" action="">
+    <h2>Inserir nova imagem</h2>
+    <input id="txtUrl" type="url" placeholder="URL da Imagem" required>
+    <button id="btnAdd" type="submit">Adicionar</button>
+    <button id="btnReset" type="reset">Cancelar</button>
+  </form>
+  <ul>
+    <li>
+      <img src="img/foto1.jpg" alt="Pintura de um Gato"/>
+      <div class="overlay-imagem-link">
+        <a href="img/foto1.jpg" target="_blank" title="Ver imagem em tamanho Real">Ver imagem em tamanho Real</a>
+      </div>
+    </li>
+    <li>
+      <img src="img/foto2.jpg" alt="Pintura de um Flamingo"/>
+      <div class="overlay-imagem-link">
+        <a href="img/foto2.jpg" target="_blank" title="Ver imagem em tamanho Real">Ver imagem em tamanho Real</a>
+      </div>
+    </li>
+    <li>
+      <img src="img/foto3.jpg" alt="Pintura de 2 filhotes de Cachorro"/>
+      <div class="overlay-imagem-link">
+        <a href="img/foto3.jpg" target="_blank" title="Ver imagem em tamanho Real">Ver imagem em tamanho Real</a>
+      </div>
+    </li>
+  </ul>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
